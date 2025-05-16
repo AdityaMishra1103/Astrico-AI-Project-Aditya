@@ -7,3 +7,5 @@ class Assessor(db.Model):
     mobile = db.Column(db.String(15))
     role = db.Column(db.Enum('Internal', 'External'))
     institution_id = db.Column(db.Integer, db.ForeignKey('institution.id'))
+
+# this is assessor table.

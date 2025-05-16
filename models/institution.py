@@ -12,3 +12,5 @@ class Institution(db.Model):
 
     learners = db.relationship('Learner', backref='institution', lazy=True)
     assessors = db.relationship('Assessor', backref='institution', lazy=True)
+
+# this is institution 

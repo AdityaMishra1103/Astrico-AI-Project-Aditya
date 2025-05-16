@@ -8,3 +8,5 @@ class Learner(db.Model):
     course = db.Column(db.String(100))
     batch = db.Column(db.String(100))
     institution_id = db.Column(db.Integer, db.ForeignKey('institution.id'))
+
+# learner 
